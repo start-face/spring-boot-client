@@ -17,8 +17,7 @@ logging:
         web: ERROR
       hibernate: ERROR
       mybatis: ERROR
-  path: D:/temp/logs/user-client.log
-  file: ./logs/user-client.log
+  file: ./logs/service-client.log
 
 
 spring:
@@ -27,9 +26,10 @@ spring:
     thymeleaf:
         prefix: classpath:/templates/
         suffix: .jsp
+    # 该配置是为了能配置jsp使用的参数
     mvc:
         view:
-          prefix: /templates/
+          prefix: /WEB-INF/views/
           suffix: .jsp
     datasource:
         name: mysql_test
