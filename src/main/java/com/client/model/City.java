@@ -17,7 +17,7 @@ public class City implements java.io.Serializable {
     @GeneratedValue
     private Integer id;
     private String name;
-    private String countryCode;
+    private String countrycode;
     private String district;
     private Long population;
 
@@ -27,7 +27,7 @@ public class City implements java.io.Serializable {
         return MoreObjects.toStringHelper(this)
                 .add("id", id)
                 .add("name", name)
-                .add("countryCode", countryCode)
+                .add("countrycode", countrycode)
                 .add("district", district)
                 .add("population", population)
                 .toString();
@@ -49,12 +49,12 @@ public class City implements java.io.Serializable {
         this.name = name;
     }
 
-    public String getCountryCode() {
-        return countryCode;
+    public String getCountrycode() {
+        return countrycode;
     }
 
-    public void setCountryCode(String countryCode) {
-        this.countryCode = countryCode;
+    public void setCountrycode(String countrycode) {
+        this.countrycode = countrycode;
     }
 
     public String getDistrict() {

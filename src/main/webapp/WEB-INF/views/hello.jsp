@@ -25,7 +25,7 @@
             <tr>
                 <td>${hello.id}</td>
                 <td>${hello.name}</td>
-                <td>${hello.countryCode}</td>
+                <td>${hello.countrycode}</td>
                 <td>${hello.district}</td>
                 <td>${hello.population}</td>
             </tr>
